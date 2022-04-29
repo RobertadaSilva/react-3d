@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+  background-color: #111;
+}
+
+.Cabecalho{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #fff;
+ 
+  background-size: cover;
+}
+
+
+
+.Menu{
+  font-size: 30px;
+  display: flex;
+  justify-content:space-around;
+  text-decoration: none;
+  
+}
+
+.Menu a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 18px;
+}
+
+.Conteudo{
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  color: #fff;
+ 
+}
+
+.Conteudo p{
+  font-size: 30px;
+}
+.Conteudo img{
+  width: 100% ;
+}
+
+.Galeria h1{
+ color: #fff;
+ font-size: 40px;
+}
+
+.Galeria img{
+  width: 30%;
+  height: 500px;
+}
+
+.footer{
+  text-align: center;
+  padding: 6px;
+  margin-top: -4px;
+  width: 100%;
+  height: 90px;
+  font-size: 30px;
+  background-color:cornflowerblue;
+  color: white;
+}
